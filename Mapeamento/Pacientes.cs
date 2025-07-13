@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Hospital.Mapeamento
 {
-    internal class Pacientes
+    public class Pacientes
     {
         private int id_paciente;
         public int Id_paciente
@@ -38,9 +38,13 @@ namespace Hospital.Mapeamento
                 {
                     sexo = value;
                 }
+                else if (value == null)
+                {
+                    throw new Exception("Informe o sexo!");
+                }
                 else
                 {
-                    throw new Exception("Digite apenas M ou F.");
+                    throw new Exception("Digite apenas M ou F!");
                 }
             }
         }
@@ -53,7 +57,7 @@ namespace Hospital.Mapeamento
             {
                 if (value == String.Empty)
                 {
-                    throw new Exception("Não deixe o campo vazio!");
+                    throw new Exception("Informe o nome!");
                 }
                 else
                 {
@@ -70,11 +74,11 @@ namespace Hospital.Mapeamento
             {
                 if (value == string.Empty)
                 {
-                    throw new Exception("Não deixe o campo vazio!");
+                    throw new Exception("Informe o tipo sanguíneo!");
                 }
                 else
                 {
-                    nome = value;
+                    tipo_sangue = value;
                 }
             }
         }
@@ -119,21 +123,23 @@ namespace Hospital.Mapeamento
             set
             {
                 try
-                {
-                    Validacao.ValidarCPF(value);
-                    cpf = value;
+                {           
+                    cpf = Validacao.ValidarCPF(value); 
                 }
                 catch (Exception ex)
                 {
                     throw new Exception(ex.Message);
                 }
-
             }
         }
 
-        public Pacientes(int id, char sexo, string nome, string tipo_sangue, string telefone, DateTime data_nasc, string cpf)
+        public Pacientes()
         {
-            Id_paciente = id;
+
+        }
+
+        public Pacientes(char sexo, string nome, string tipo_sangue, string telefone, DateTime data_nasc, string cpf)
+        {
             Sexo = sexo;
             Nome = nome;
             Tipo_Sangue = tipo_sangue;

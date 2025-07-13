@@ -31,10 +31,10 @@ namespace Hospital.Mapeamento
         {
             get { return sexo; }
             set
-            {
+            {             
                 if (value == 'F' || value == 'M')
                 {
-                    sexo = value;
+                    sexo = Convert.ToChar(value.ToString().ToUpper());
                 }
                 else
                 {
@@ -114,9 +114,8 @@ namespace Hospital.Mapeamento
         {
             get { return cpf; }
             set
-            {
-                Validacao.ValidarCPF(value);
-                cpf = value;
+            {         
+                cpf = Validacao.ValidarCPF(value);
             }
         }
 

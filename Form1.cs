@@ -22,18 +22,18 @@ namespace Hospital
             {
                 Conexao.Conectar();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-               MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message);
             }
-            
+
         }
 
-        private void MostrarForm(Form frm)
+        public void MostrarForm(Form frm)
         {
             FecharForm();
-            frmAtivo = frm;
             frm.TopLevel = false;
+            frmAtivo = frm;
             panelPrincipal.Controls.Add(frm);
             frm.BringToFront();
             frm.Show();
@@ -41,7 +41,7 @@ namespace Hospital
 
         private void FecharForm()
         {
-            if(frmAtivo != null)
+            if (frmAtivo != null)
             {
                 frmAtivo.Close();
             }
@@ -49,7 +49,7 @@ namespace Hospital
 
         private void AtivarBotao(Button frmAtivo)
         {
-            foreach(Control ctrl in panelMenu.Controls)
+            foreach (Control ctrl in panelMenu.Controls)
             {
                 ctrl.ForeColor = Color.Black;
             }
@@ -58,17 +58,17 @@ namespace Hospital
 
         private void Form1_Load(object sender, EventArgs e)
         {
-                Conexao.Conectar();       
+            Conexao.Conectar();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -94,7 +94,12 @@ namespace Hospital
         private void btPacientes_Click(object sender, EventArgs e)
         {
             AtivarBotao(btPacientes);
-            MostrarForm(new FrmPaciente());
+            MostrarForm(new FrmPaciente(this));
+        }
+
+        private void picturePrincipal_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

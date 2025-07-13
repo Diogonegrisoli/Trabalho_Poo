@@ -30,7 +30,7 @@ namespace Hospital.Utilitarios
 
         public static void FecharConexao()
         {
-            conexao.Clone();
+            conexao.Close();
         }
     }
 }

@@ -8,19 +8,19 @@ namespace Hospital.Validacoes
 {
     public static class Validacao
     {
-        public static void ValidarCPF(string cpf)
+        public static string ValidarCPF(string cpf)
         {
             int primeiroDigito = 0;
             int segundoDigito = 0;
 
             int index = 0;
-            if (cpf.Length != 11)
+            if (string.IsNullOrEmpty(cpf) || cpf.Length != 11)
             {
                 throw new Exception("Este CPF não possui 11 números!");
             }
             else
             {
-                // Primeira identificador
+                // Primeiro identificador
                 int soma1 = 0;
 
                 for (int i = 10; i > 1; i--)
@@ -63,6 +63,7 @@ namespace Hospital.Validacoes
                 if (primeiroDigito == Convert.ToInt32(cpf.Substring(9, 1)) && segundoDigito == Convert.ToInt32(cpf.Substring(10, 1)))
                 {
                     Console.WriteLine($"O CPF: {cpf} é válido!");
+                    return cpf;
                 }
                 else
                 {

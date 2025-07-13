@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|c:\\ads\\3\u00B0 p\u00E9r\u00EDodo\\poo\\trabalho\\hospital\\formularios\\frmpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\formularios\\frmatualizarpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:formularios\\frmatualizarpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\formularios\\frmatualizarpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:formularios\\frmatualizarpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\dao\\pacientesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:dao\\pacientesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|c:\\ads\\3\u00B0 p\u00E9r\u00EDodo\\poo\\trabalho\\hospital\\mapeamento\\medicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:mapeamento\\medicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|c:\\ads\\3\u00B0 p\u00E9r\u00EDodo\\poo\\trabalho\\hospital\\validacoes\\validacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:validacoes\\validacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\mapeamento\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:mapeamento\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\formularios\\frmpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:formularios\\frmpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|c:\\ads\\3\u00B0 p\u00E9r\u00EDodo\\poo\\trabalho\\hospital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\utilitarios\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:utilitarios\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DA5F25B-446D-43D6-9A08-8F2C3B4577E3}|Hospital.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,25 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Conexao.cs",
-              "DocumentMoniker": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Utilitarios\\Conexao.cs",
-              "RelativeDocumentMoniker": "Utilitarios\\Conexao.cs",
-              "ToolTip": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Utilitarios\\Conexao.cs",
-              "RelativeToolTip": "Utilitarios\\Conexao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:47:10.482Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -53,15 +63,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T18:16:06.713Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FrmPaciente.cs [Design]",
               "DocumentMoniker": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Formularios\\FrmPaciente.cs",
               "RelativeDocumentMoniker": "Formularios\\FrmPaciente.cs",
               "ToolTip": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Formularios\\FrmPaciente.cs [Design]",
               "RelativeToolTip": "Formularios\\FrmPaciente.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T14:10:21.095Z",
+              "WhenOpened": "2025-07-05T22:51:14.828Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Medicos.cs",
+              "DocumentMoniker": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Mapeamento\\Medicos.cs",
+              "RelativeDocumentMoniker": "Mapeamento\\Medicos.cs",
+              "ToolTip": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Mapeamento\\Medicos.cs",
+              "RelativeToolTip": "Mapeamento\\Medicos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T19:48:43.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pacientes.cs",
+              "DocumentMoniker": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Mapeamento\\Pacientes.cs",
+              "RelativeDocumentMoniker": "Mapeamento\\Pacientes.cs",
+              "ToolTip": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Mapeamento\\Pacientes.cs",
+              "RelativeToolTip": "Mapeamento\\Pacientes.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAgwIMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T21:40:55.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmAtualizarPacientes.cs [Design]",
+              "DocumentMoniker": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Formularios\\frmAtualizarPacientes.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmAtualizarPacientes.cs",
+              "ToolTip": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Formularios\\frmAtualizarPacientes.cs [Design]",
+              "RelativeToolTip": "Formularios\\frmAtualizarPacientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T16:33:18.463Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAtualizarPacientes.cs",
+              "DocumentMoniker": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Formularios\\frmAtualizarPacientes.cs",
+              "RelativeDocumentMoniker": "Formularios\\frmAtualizarPacientes.cs",
+              "ToolTip": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Formularios\\frmAtualizarPacientes.cs",
+              "RelativeToolTip": "Formularios\\frmAtualizarPacientes.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwJQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T16:46:59.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PacientesDAO.cs",
+              "DocumentMoniker": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\DAO\\PacientesDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\PacientesDAO.cs",
+              "ToolTip": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\DAO\\PacientesDAO.cs",
+              "RelativeToolTip": "DAO\\PacientesDAO.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAYwG4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T00:32:44.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Validacao.cs",
+              "DocumentMoniker": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Validacoes\\Validacao.cs",
+              "RelativeDocumentMoniker": "Validacoes\\Validacao.cs",
+              "ToolTip": "C:\\ADS\\3\u00B0 P\u00E9r\u00EDodo\\POO\\Trabalho\\Hospital\\Validacoes\\Validacao.cs",
+              "RelativeToolTip": "Validacoes\\Validacao.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwEEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:07:14.584Z",
+              "EditorCaption": ""
             }
           ]
         }
