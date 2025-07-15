@@ -34,7 +34,6 @@ namespace Hospital.DAO
             {
                 throw new Exception(ex.Message);
             }
-
         }
 
         public void Atualizar(Pacientes paciente)
@@ -113,6 +112,7 @@ namespace Hospital.DAO
                         p.Nome = dr.GetString("nome");
                         p.Cpf = dr.GetString("cpf");
                         p.Telefone = dr.GetString("telefone");
+                        p.Data_nasc = dr.GetDateTime("data_nasc");
                         p.Tipo_Sangue = dr.GetString("tipo_sangue");
                         listaPacientes.Add(p);
                     }

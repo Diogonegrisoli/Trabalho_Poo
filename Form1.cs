@@ -101,5 +101,11 @@ namespace Hospital
         {
 
         }
+
+        private void btMedicos_Click(object sender, EventArgs e)
+        {
+            AtivarBotao(btMedicos);
+            MostrarForm(new FrmMedico(this));
+        }
     }
 }

@@ -12,9 +12,9 @@ namespace Hospital.Validacoes
         {
             int primeiroDigito = 0;
             int segundoDigito = 0;
-
+            string dentroCpf = cpf.Replace(".", "").Replace("-", "").Trim();
             int index = 0;
-            if (string.IsNullOrEmpty(cpf) || cpf.Length != 11)
+            if (string.IsNullOrEmpty(dentroCpf) || dentroCpf.Length != 11)
             {
                 throw new Exception("Este CPF não possui 11 números!");
             }
@@ -25,7 +25,7 @@ namespace Hospital.Validacoes
 
                 for (int i = 10; i > 1; i--)
                 {
-                    soma1 += i * Convert.ToInt32(cpf.Substring(index, 1));
+                    soma1 += i * Convert.ToInt32(dentroCpf.Substring(index, 1));
                     index++;
                 }
 
@@ -46,7 +46,7 @@ namespace Hospital.Validacoes
 
                 for (int i = 11; i > 1; i--)
                 {
-                    soma2 += i * Convert.ToInt32(cpf.Substring(index2, 1));
+                    soma2 += i * Convert.ToInt32(dentroCpf.Substring(index2, 1));
                     index2++;
                 }
                 int restoDivisao2 = soma2 % 11;
@@ -60,10 +60,10 @@ namespace Hospital.Validacoes
                     segundoDigito = 11 - restoDivisao2;
                 }
 
-                if (primeiroDigito == Convert.ToInt32(cpf.Substring(9, 1)) && segundoDigito == Convert.ToInt32(cpf.Substring(10, 1)))
+                if (primeiroDigito == Convert.ToInt32(dentroCpf.Substring(9, 1)) && segundoDigito == Convert.ToInt32(dentroCpf.Substring(10, 1)))
                 {
-                    Console.WriteLine($"O CPF: {cpf} é válido!");
-                    return cpf;
+                    Console.WriteLine($"O CPF: {dentroCpf} é válido!");
+                    return dentroCpf;
                 }
                 else
                 {

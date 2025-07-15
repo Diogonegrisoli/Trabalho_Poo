@@ -43,7 +43,6 @@ namespace Hospital.Mapeamento
                 }
             }
         }
-
         public Reg_Medicos(int id, string diagnostico, string observacoes, DateTime data_criacao)
         {
             Id_reg_medico = id;

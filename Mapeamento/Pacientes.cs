@@ -72,13 +72,15 @@ namespace Hospital.Mapeamento
             get { return tipo_sangue; }
             set
             {
-                if (value == string.Empty)
+                string sangue = value.ToString().ToUpper();
+
+                if (sangue == string.Empty)
                 {
                     throw new Exception("Informe o tipo sanguíneo!");
                 }
                 else
                 {
-                    tipo_sangue = value;
+                    tipo_sangue = sangue;
                 }
             }
         }

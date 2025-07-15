@@ -42,19 +42,14 @@ namespace Hospital.Formularios
             formPrincipal.MostrarForm(new frmCadastrarPacientes(formPrincipal));
         }
 
-        private void btPacientesDeletar_Click(object sender, EventArgs e)
-        {
-            formPrincipal.MostrarForm(new FrmDeletarPacientes(formPrincipal));
-        }
-
-        private void btPacientesAtualizar_Click(object sender, EventArgs e)
-        {
-            formPrincipal.MostrarForm(new frmAtualizarPacientes(formPrincipal));
-        }
-
         private void btPacientesConsultar_Click(object sender, EventArgs e)
         {
+           
+        }
 
+        private void btPacientesConsultar_Click_1(object sender, EventArgs e)
+        {
+            formPrincipal.MostrarForm(new frmConsultarPacientes(formPrincipal));
         }
     }
 }

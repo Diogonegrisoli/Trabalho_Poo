@@ -44,5 +44,7 @@ C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.pdb
 C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.exe.config
 C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmPaciente.resources
 C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.frmCadastrarPacientes.resources
-C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmDeletarPacientes.resources
-C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.frmAtualizarPacientes.resources
+C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.frmConsultarPacientes.resources
+C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmCadastrarMedicos.resources
+C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmMedico.resources
+C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmConsultarMedicos.resources

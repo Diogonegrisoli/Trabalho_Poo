@@ -15,6 +15,6 @@ namespace Hospital.Interface
 
         void Deletar(T t);
 
-        List<Pacientes> Selecionar(T t);
+        List<T> Selecionar(T t);
     }
 }

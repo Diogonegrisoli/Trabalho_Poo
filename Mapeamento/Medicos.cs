@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Hospital.Mapeamento
 {
-    internal class Medicos
+    public class Medicos
     {
         private int id_medico;
         public int Id_medico
@@ -31,14 +31,18 @@ namespace Hospital.Mapeamento
         {
             get { return sexo; }
             set
-            {             
+            {
                 if (value == 'F' || value == 'M')
                 {
-                    sexo = Convert.ToChar(value.ToString().ToUpper());
+                    sexo = value;
+                }
+                else if (value == null)
+                {
+                    throw new Exception("Informe o sexo!");
                 }
                 else
                 {
-                    throw new Exception("Digite apenas M ou F.");
+                    throw new Exception("Digite apenas M ou F!");
                 }
             }
         }
@@ -114,14 +118,22 @@ namespace Hospital.Mapeamento
         {
             get { return cpf; }
             set
-            {         
-                cpf = Validacao.ValidarCPF(value);
+            {
+                try
+                {
+                    cpf = Validacao.ValidarCPF(value);
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
             }
         }
 
-        public Medicos(int id, char sexo, string nome, string crm, string telefone, DateTime data_nasc, string cpf)
+        public Medicos() { }
+
+        public Medicos(char sexo, string nome, string crm, string telefone, DateTime data_nasc, string cpf)
         {
-            Id_medico = id;
             Sexo = sexo;
             Crm = crm;
             Nome = nome;

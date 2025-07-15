@@ -129,6 +129,7 @@
             this.btMedicos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btMedicos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btMedicos.UseVisualStyleBackColor = false;
+            this.btMedicos.Click += new System.EventHandler(this.btMedicos_Click);
             // 
             // btPacientes
             // 

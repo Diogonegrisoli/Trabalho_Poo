@@ -113,6 +113,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\MedicosDAO.cs" />
     <Compile Include="DAO\PacientesDAO.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -120,11 +121,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\frmAtualizarPacientes.cs">
+    <Compile Include="Formularios\FrmCadastrarMedicos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\frmAtualizarPacientes.Designer.cs">
-      <DependentUpon>frmAtualizarPacientes.cs</DependentUpon>
+    <Compile Include="Formularios\FrmCadastrarMedicos.Designer.cs">
+      <DependentUpon>FrmCadastrarMedicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmConsultarMedicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmConsultarMedicos.Designer.cs">
+      <DependentUpon>FrmConsultarMedicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmConsultarPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmConsultarPacientes.Designer.cs">
+      <DependentUpon>frmConsultarPacientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\frmCadastrarPacientes.cs">
       <SubType>Form</SubType>
@@ -132,11 +145,11 @@
     <Compile Include="Formularios\frmCadastrarPacientes.Designer.cs">
       <DependentUpon>frmCadastrarPacientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FrmDeletarPacientes.cs">
+    <Compile Include="Formularios\FrmMedico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FrmDeletarPacientes.Designer.cs">
-      <DependentUpon>FrmDeletarPacientes.cs</DependentUpon>
+    <Compile Include="Formularios\FrmMedico.Designer.cs">
+      <DependentUpon>FrmMedico.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FrmPaciente.cs">
       <SubType>Form</SubType>
@@ -156,14 +169,20 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\frmAtualizarPacientes.resx">
-      <DependentUpon>frmAtualizarPacientes.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\FrmCadastrarMedicos.resx">
+      <DependentUpon>FrmCadastrarMedicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmConsultarMedicos.resx">
+      <DependentUpon>FrmConsultarMedicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmConsultarPacientes.resx">
+      <DependentUpon>frmConsultarPacientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmCadastrarPacientes.resx">
       <DependentUpon>frmCadastrarPacientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FrmDeletarPacientes.resx">
-      <DependentUpon>FrmDeletarPacientes.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\FrmMedico.resx">
+      <DependentUpon>FrmMedico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmPaciente.resx">
       <DependentUpon>FrmPaciente.cs</DependentUpon>
