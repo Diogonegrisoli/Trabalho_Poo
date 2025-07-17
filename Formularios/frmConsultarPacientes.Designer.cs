@@ -230,7 +230,7 @@
             // 
             // btEditar
             // 
-            this.btEditar.Location = new System.Drawing.Point(99, 258);
+            this.btEditar.Location = new System.Drawing.Point(99, 221);
             this.btEditar.Name = "btEditar";
             this.btEditar.Size = new System.Drawing.Size(78, 31);
             this.btEditar.TabIndex = 92;

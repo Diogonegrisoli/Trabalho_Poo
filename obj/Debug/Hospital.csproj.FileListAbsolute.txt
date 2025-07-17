@@ -48,3 +48,6 @@ C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.frmCon
 C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmCadastrarMedicos.resources
 C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmMedico.resources
 C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmConsultarMedicos.resources
+C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmCadastrarConsultas.resources
+C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmConsultas.resources
+C:\ADS\3° Péríodo\POO\Trabalho\Hospital\obj\Debug\Hospital.Formularios.FrmConsultarConsultas.resources

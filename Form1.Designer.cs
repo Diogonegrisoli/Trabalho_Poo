@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.btSair = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.btConsultas = new System.Windows.Forms.Button();
             this.btMedicos = new System.Windows.Forms.Button();
             this.btPacientes = new System.Windows.Forms.Button();
@@ -48,7 +47,6 @@
             // 
             this.panelMenu.BackColor = System.Drawing.Color.LightGray;
             this.panelMenu.Controls.Add(this.btSair);
-            this.panelMenu.Controls.Add(this.button3);
             this.panelMenu.Controls.Add(this.btConsultas);
             this.panelMenu.Controls.Add(this.btMedicos);
             this.panelMenu.Controls.Add(this.btPacientes);
@@ -78,24 +76,6 @@
             this.btSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btSair.UseVisualStyleBackColor = false;
             // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(0, 226);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 46);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "REG. MEDICOS";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // btConsultas
             // 
             this.btConsultas.BackColor = System.Drawing.Color.Transparent;
@@ -112,6 +92,7 @@
             this.btConsultas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btConsultas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btConsultas.UseVisualStyleBackColor = false;
+            this.btConsultas.Click += new System.EventHandler(this.btConsultas_Click);
             // 
             // btMedicos
             // 
@@ -210,7 +191,6 @@
         private System.Windows.Forms.Button btPacientes;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btSair;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btConsultas;
         private System.Windows.Forms.Button btMedicos;
         private System.Windows.Forms.Panel panelPrincipal;

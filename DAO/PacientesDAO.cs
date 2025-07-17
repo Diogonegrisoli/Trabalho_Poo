@@ -125,5 +125,36 @@ namespace Hospital.DAO
                 throw new Exception(ex.Message);
             }
         }
+
+        public List<Pacientes> SelecionarTodos()
+        {
+            try
+            {
+                List<Pacientes> lista = new List<Pacientes>();
+
+                string sql = "SELECT * FROM Pacientes;";
+                MySqlCommand comando = new MySqlCommand(sql, Conexao.Conectar());
+
+                using (MySqlDataReader dr = comando.ExecuteReader())
+                {
+                    while (dr.Read())
+                    {
+                        Pacientes p = new Pacientes();
+                        p.Id_paciente = dr.GetInt32("id_paciente");
+                        p.Nome = dr.GetString("nome");
+                        p.Cpf = dr.GetString("cpf");
+                        p.Telefone = dr.GetString("telefone");
+                        p.Data_nasc = dr.GetDateTime("data_nasc");
+                        p.Tipo_Sangue = dr.GetString("tipo_sangue");
+                        lista.Add(p);
+                    }
+                    return lista;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message); 
+            }
+        }
     }
 }

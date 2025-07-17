@@ -231,6 +231,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmCadastrarMedicos";
             this.Text = "FrmCadastrarMedicos";
+            this.Load += new System.EventHandler(this.FrmCadastrarMedicos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

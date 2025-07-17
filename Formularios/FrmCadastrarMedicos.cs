@@ -25,7 +25,7 @@ namespace Hospital.Formularios
         {
             try
             {
-                if (txtNome.Text == string.Empty || mtxtCpf.Text == string.Empty || txtSexo.Text == string.Empty || mtxtTelefone.Text == string.Empty || txtCrm.Text == string.Empty)
+                if (txtNome.Text == string.Empty || mtxtCpf.Text == string.Empty || txtSexo.Text == string.Empty || mtxtTelefone.Text == string.Empty || txtCrm.Text == string.Empty || !mtxtDataNascimento.MaskFull)
                 {
                     throw new Exception("Preencha todos os campos!");
                 }
@@ -97,6 +97,11 @@ namespace Hospital.Formularios
         private void txtDataNascimento_KeyPress(object sender, KeyPressEventArgs e)
         {
             
+        }
+
+        private void FrmCadastrarMedicos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

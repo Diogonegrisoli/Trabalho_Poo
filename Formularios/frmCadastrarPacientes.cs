@@ -36,7 +36,7 @@ namespace Hospital.Formularios
         {
             try 
             {
-                if (txtNome.Text == string.Empty || mtxtCpf.Text == string.Empty || txtSexo.Text == string.Empty || mtxtTelefone.Text == string.Empty || mtxtDataNascimento.Text == string.Empty || txtTipoSangue.Text == string.Empty)
+                if (txtNome.Text == string.Empty || mtxtCpf.Text == string.Empty || txtSexo.Text == string.Empty || mtxtTelefone.Text == string.Empty || !mtxtDataNascimento.MaskFull || txtTipoSangue.Text == string.Empty)
                 {
                     throw new Exception("Preencha todos os campos!");
                 }

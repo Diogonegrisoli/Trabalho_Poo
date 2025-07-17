@@ -107,5 +107,11 @@ namespace Hospital
             AtivarBotao(btMedicos);
             MostrarForm(new FrmMedico(this));
         }
+
+        private void btConsultas_Click(object sender, EventArgs e)
+        {
+            AtivarBotao(btConsultas);
+            MostrarForm(new FrmConsultas(this));
+        }
     }
 }

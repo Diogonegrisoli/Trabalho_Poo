@@ -93,6 +93,11 @@ namespace Hospital.Formularios
 
                 var listaMedicos = medicoDAO.Selecionar(medico);
 
+                if (listaMedicos.Count == 0)
+                {
+                    MessageBox.Show("Nenhum registro encontrado com os dados informados!", "CONSULTAR!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
                 string id; //Para transformar o id do medico em string para poder utilizar no listView
                 string dataNasc;
 
@@ -149,7 +154,7 @@ namespace Hospital.Formularios
 
                 if (txtNome.Text == string.Empty || txtTelefone.Text == string.Empty)
                 {
-                    throw new Exception("Selecione um paciente!");
+                    throw new Exception("Selecione um médico!");
                 }
                 medico.Id_medico = id_paciente_selecionado;
 
@@ -158,7 +163,7 @@ namespace Hospital.Formularios
                 medico.Crm = txtCrm.Text;
 
                 medicoDAO.Atualizar(medico);
-                MessageBox.Show("Paciente atualizado com sucesso!", "CONSULTAR!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Médico atualizado com sucesso!", "CONSULTAR!", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 txtNome.Clear();
                 txtTelefone.Clear();

@@ -113,6 +113,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\ConsultasDAO.cs" />
     <Compile Include="DAO\MedicosDAO.cs" />
     <Compile Include="DAO\PacientesDAO.cs" />
     <Compile Include="Form1.cs">
@@ -121,11 +122,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmCadastrarConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCadastrarConsultas.Designer.cs">
+      <DependentUpon>FrmCadastrarConsultas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmCadastrarMedicos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\FrmCadastrarMedicos.Designer.cs">
       <DependentUpon>FrmCadastrarMedicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmConsultarConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmConsultarConsultas.Designer.cs">
+      <DependentUpon>FrmConsultarConsultas.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FrmConsultarMedicos.cs">
       <SubType>Form</SubType>
@@ -145,6 +158,12 @@
     <Compile Include="Formularios\frmCadastrarPacientes.Designer.cs">
       <DependentUpon>frmCadastrarPacientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmConsultas.Designer.cs">
+      <DependentUpon>FrmConsultas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmMedico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,7 +180,6 @@
     <Compile Include="Mapeamento\Consultas.cs" />
     <Compile Include="Mapeamento\Medicos.cs" />
     <Compile Include="Mapeamento\Pacientes.cs" />
-    <Compile Include="Mapeamento\Reg_Medicos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilitarios\Conexao.cs" />
@@ -169,8 +187,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmCadastrarConsultas.resx">
+      <DependentUpon>FrmCadastrarConsultas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmCadastrarMedicos.resx">
       <DependentUpon>FrmCadastrarMedicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmConsultarConsultas.resx">
+      <DependentUpon>FrmConsultarConsultas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmConsultarMedicos.resx">
       <DependentUpon>FrmConsultarMedicos.cs</DependentUpon>
@@ -180,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmCadastrarPacientes.resx">
       <DependentUpon>frmCadastrarPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmConsultas.resx">
+      <DependentUpon>FrmConsultas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmMedico.resx">
       <DependentUpon>FrmMedico.cs</DependentUpon>

@@ -143,6 +143,10 @@ namespace Hospital.Formularios
                 }
 
                 var listaPacientes = pacienteDAO.Selecionar(paciente);
+                if (listaPacientes.Count == 0)
+                {
+                    MessageBox.Show("Nenhum registro encontrado com os dados informados!", "CONSULTAR!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
 
                 string id; //Para transformar o id do paciente em string para poder utilizar no listView
                 string dataNasc;

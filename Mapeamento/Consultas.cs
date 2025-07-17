@@ -31,23 +31,46 @@ namespace Hospital.Mapeamento
             get { return data_hora; }
             set
             {
-                DateTime data = DateTime.Now;
-                if (value > data)
-                {
-                    throw new Exception("Data inválida!");
-                }
-                else
-                {
-                    data_hora = value;
-                }
+
+                data_hora = value;
+
             }
         }
 
+
         private int fk_id_medico;
+        public int Fk_id_medico
+        {
+            get { return fk_id_medico; }
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new Exception("O id não pode ser menor ou igual a zero.");
+                }
+                else
+                {
+                    fk_id_medico = value;
+                }
+            }
+        }
         private int fk_id_paciente;
-        private int fk_id_reg_medico;
-        public Medicos medicoConsulta;
-        public Pacientes pacienteConsulta;
-        public Reg_Medicos regMedicoConsulta;
+        public int Fk_id_paciente
+        {
+            get { return fk_id_paciente; }
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new Exception("O id não pode ser menor ou igual a zero.");
+                }
+                else
+                {
+                    fk_id_paciente = value;
+                }
+            }
+        }
+        public Medicos medicoConsulta { get; set; }
+        public Pacientes pacienteConsulta { get; set; }
     }
 }
